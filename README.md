@@ -7,6 +7,7 @@ clear all
 ssc install fs
 
 global directory “this is the path name for the main directory which contains all folders”
+
 cd "$directory"
 
 folders "*coders*"  // this is how we access the folders which contain the phrase “coders” 
@@ -30,7 +31,9 @@ capture rename oldname newname  //using capture since we’re not sure if the va
 cd “$directory" //we can save the dta files in the main directory 
 
 save `file', replace 
+
 }
+
 }
 
 clear
