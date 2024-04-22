@@ -1,3 +1,6 @@
+
+![CC Graphics 2024_Accessingfolders](https://github.com/csae-coders-corner/Accessing-folders-and-files/assets/148211163/50bf4731-fb65-4528-b850-bf4f1a41ee88)
+
 # Accessing-folders-and-files
 The stata package fs, written by Nicholas Cox (Durham University), allows us to access files from a given folder using the command “fs” and also allows us to access multiple folders in the directory using the command “folders”. These commands can be used to access several files and folders of a particular type, especially when the number of files is huge or if they are stored across different folders. 
 
